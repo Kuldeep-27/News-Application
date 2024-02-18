@@ -1,0 +1,28 @@
+img{
+    width:100%;
+    margin-bottom:20px;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+p{
+    color:#333;
+}
+
+.news-card{
+    padding:20px;
+    border:2px solid #666;
+}
+
+.addStyle{
+    background-color:black;
+    color:white;
+    margin-inline:auto;
+    width:100%;
+    padding:20px;
+    margin-top:15px;
+    cursor:pointer;
+
+}

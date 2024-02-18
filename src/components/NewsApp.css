@@ -1,0 +1,59 @@
+.NewsPage{
+    display:grid;
+    grid-template-columns:repeat(2,50%);
+    justify-content:space-around;
+    row-gap: 2vh;
+    padding-top:2vh;
+}
+
+
+.nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:8vh;
+     background-color:rgb(54, 34, 34);
+    
+
+}
+
+.logo{
+    height:100%;
+
+}
+
+.logo > img{
+    width:100px;
+    height:100%;
+    object-fit: cover;
+}
+
+.tags{
+    display:flex;
+    justify-content:space-between;
+}
+
+.tags > button{
+   
+    border:none;
+    background-color:rgb(54, 34, 34);
+    cursor:pointer;
+    color:white;
+    font-weight:1.8em;
+    padding:15px 32px;
+    
+
+}
+
+.search-btn{
+    background-color:green;
+    color:white;
+    padding-left: 20px;
+    padding-right:20px;
+}
+
+.search > form{
+    display:flex;
+    justify-content: space-between;
+    gap:5px;
+}
